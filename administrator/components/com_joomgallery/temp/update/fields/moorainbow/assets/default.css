@@ -1,0 +1,130 @@
+#mooRainbow {
+  color: #000000;
+  font-size: 11px;
+}
+#mooRainbow2 {
+  color: #000000;
+  font-size: 11px;
+}
+#myDemo1 {
+  color: #000000;
+  font-size: 11px;
+}
+#myDemo2 {
+  color: #000000;
+  font-size: 11px;
+}
+.moor-box {
+  background-color: #F9F9F9;
+  border: 1px solid #636163;
+  height: 310px;
+  width: 390px;
+  margin-left: -300px;
+  margin-top: 10px;
+}
+.moor-overlayBox {
+  border: 1px solid #000000;
+  height: 256px;
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 256px;
+}
+.moor-slider {
+  border: 1px solid #000000;
+  height: 256px;
+  margin-left: 280px;
+  margin-top: 9px;
+  width: 19px;
+}
+.moor-colorBox {
+  border: 1px solid #000000;
+  height: 68px;
+  margin-left: 315px;
+  margin-top: 20px;
+  width: 59px;
+}
+.moor-currentColor {
+  height: 34px;
+  margin-left: 316px;
+  margin-top: 55px;
+  width: 59px;
+}
+.moor-okButton {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 #E6E6E6;
+  border-color: #F5F5F5 #D6D6D6 #D6D6D6 #F5F5F5;
+  border-right: 1px solid #D6D6D6;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Tahoma;
+  font-size: 11px;
+  font-weight: bold;
+  height: 23px;
+  margin-left: 8px;
+  margin-top: 278px;
+}
+#mooRainbow label {
+  font-family: mono;
+}
+.moor-rLabel {
+  margin-left: 315px;
+  margin-top: 100px;
+}
+.moor-gLabel {
+  margin-left: 315px;
+  margin-top: 125px;
+}
+.moor-bLabel {
+  margin-left: 315px;
+  margin-top: 150px;
+}
+.moor-HueLabel {
+  margin-left: 315px;
+  margin-top: 190px;
+}
+span.moor-ballino {
+  margin-left: 370px;
+  margin-top: 190px;
+}
+.moor-SatuLabel {
+  margin-left: 315px;
+  margin-top: 215px;
+}
+.moor-BrighLabel {
+  margin-left: 315px;
+  margin-top: 240px;
+}
+.moor-hexLabel {
+  margin-left: 280px;
+  margin-top: 275px;
+}
+.moor-rInput, .moor-gInput, .moor-bInput, .moor-HueInput, .moor-SatuInput, .moor-BrighInput {
+  width: 30px;
+}
+.moor-hexInput {
+  width: 55px;
+}
+.moor-cursor {
+  background-image: url("images/moor_cursor.gif");
+  height: 12px;
+  width: 12px;
+}
+.moor-arrows {
+  background-image: url("images/moor_arrows.gif");
+  font-size: 0;
+  height: 9px;
+  left: 270px;
+  line-height: 9px;
+  top: 9px;
+  width: 41px;
+}
+.moor-chooseColor {
+  height: 34px;
+  margin-left: 316px;
+  margin-top: 21px;
+  width: 59px;
+}

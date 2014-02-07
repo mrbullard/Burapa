@@ -1,0 +1,116 @@
+/**
+* @version $Id: login.css 14401 2010-01-26 14:10:00Z louis $
+* @copyright Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+* @license GNU/GPL, see LICENSE.php
+* Joomla! is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+* See COPYRIGHT.php for copyright notices and details.
+*/
+
+/**
+ * Joomla! 1.5 Admin template main css file
+ *
+ * @author		Andy Miller <andy.miller@joomla.org>
+ * @package		Joomla
+ * @since		1.5
+ * @version    1.0
+ */
+
+/* -- Imported styles ----------------------------- */
+
+
+/* -- Specific styles ----------------------------- */
+
+form  			{ margin: 0px; padding: 0px; }
+form .inputbox  { 
+width: 150px; 
+margin:5px;
+padding:5px;
+border:1px solid #ccc;
+background:#eee;
+float:left;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+}
+form br 	    { display: none; }
+.login          { 
+margin: 0 auto; 
+width: 335px; 
+margin-top: 100px;
+background: url(../images/login_main_bg.png) left 10px no-repeat;
+ }
+.vt_login_bg{
+background:#ddd url(../images/login_bg.jpg) center top repeat-y;
+}
+.login h1 {
+  margin: 25px 0;
+  text-align:center;
+  font-size:20px;
+  color:#333;
+  text-transform:uppercase;
+}
+
+.login p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+#content-box .m {
+  padding: 10px;
+}
+
+#content-box .padding {
+  padding: 30px 0;
+}
+
+#section-box  {
+margin-bottom:20px;
+
+}
+
+#section-box .m {
+  padding: 5px;
+  border:none;
+}
+#section-box .padding {
+	background: none; padding: 0;
+}
+
+.button { text-align: right; }
+
+.login-form    { text-align: left; width: 60%; }
+.login-form h1 { display: none; }
+.login-form p  { padding: 0 1em 0 1em; }
+
+.login-text { text-align: left; width: 40%; float: left; }
+
+#form-login label {
+	display: block;
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding: 4px;
+	color: #666;
+	font-weight: bold;
+}
+
+#form-login .button-holder {
+	float: left;
+	padding-left: 160px;
+}
+
+#form-login div.button1{
+ 	float: left;
+	background:url(../images/loginl.png) left top no-repeat;
+}
+
+#form-login div.button1 div.next {
+	float: left;
+	background:url(../images/loginr.png) right top no-repeat;
+	text-transform:uppercase;
+	padding:2px 15px 5px 0px;
+}

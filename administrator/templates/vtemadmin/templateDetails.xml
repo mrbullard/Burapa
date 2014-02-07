@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension type="template" version="1.7" client="administrator">
+	<name>VTEM Admin</name>
+	<creationDate>07/02/09</creationDate>
+	<author>Nguyen Van Tuyen</author>
+	<authorEmail>tuyen0110@vtem.net</authorEmail>
+	<authorUrl>http://www.vtem.net</authorUrl>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.1</version>
+	<description>VTEM Admin for joomla</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>footer</position>
+		<position>login</position>
+		<position>debug</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="showSiteName" type="list" default="0" label="Show Site Name" description="Show the site name instead of generic 'Administration' in the template header.">
+					<option value="0">JDISABLED</option>
+					<option value="1">JENABLED</option>
+				</field>
+				<field name="headerColor" type="list" default="blue" label="Style">
+		           <option value="blue">Blue</option>
+			       <option value="green">Green</option>
+			       <option value="red">Red</option>
+			       <option value="orange">Orange</option>
+		        </field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,10 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+.mc-update-check{border-radius:6px;border:1px solid #97bdec;background:#dde9f7;padding:10px;overflow:hidden;color:#000;text-shadow:1px 1px 0 #fff;margin:0 0 10px 0}
+.mc-update-check a{clear:both;float:right;display:block;padding:2px 10px;background:#4d4d4d;color:#fff;text-shadow:none;text-decoration:none}.mc-update-check.updates-true{border:1px solid #ec9b9a;background:#fae2e2}
+.mc-update-check .h2bar{font-size:16px;margin-bottom:10px}.mc-update-check .time-check{font-size:11px;text-decoration:underline}.picker-input{width:65px!important}
+iframe.mc-logoupload{border:0;width:400px;height:135px}.mc-update .spinner{float:right;display:block;margin:3px 7px 0 0;display:none}b.mc-error{color:#c00}
+p.warning{color:#c00;font-weight:bold}input.picker-input{line-height:18px}label[id="jform_params_adminTitle-lbl"]+input{width:200px}
